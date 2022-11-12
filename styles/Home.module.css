@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf');
+    font-weight: 400;
+    font-style: normal;
+    }
+
 .container {
   padding: 0 2rem;
+}
+.wrapper {
+    width: 1920px;
+    height: 2418px;
+    left: 9px;
+    top: 56px;
 }
 
 .main {
@@ -10,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .footer {
@@ -106,6 +121,9 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+.button {
+    background-color: rgba(56, 69, 100, 0.14);
 }
 
 @media (max-width: 600px) {
